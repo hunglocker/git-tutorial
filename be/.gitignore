@@ -1,0 +1,14 @@
+## .NET
+bin/
+obj/
+*.user
+*.suo
+.vs/
+*.log
+
+## EF Migrations (keep source, ignore build artifacts)
+**/Migrations/**/*.Designer.cs
+
+## Secrets
+appsettings.Production.json
+secrets.json
