@@ -1,4 +1,5 @@
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.VisualBasic;
 using RentalSystem.Application.DTOs.Categories;
 using RentalSystem.Application.Interfaces.Services;
 
@@ -9,6 +10,8 @@ namespace RentalSystem.Api.Controllers;
 public sealed class CategoriesController : ControllerBase
 {
     private readonly ICategoryService _categoryService;
+    private readonly IRentalOrderService rentalOrderService;
+
 
     public CategoriesController(ICategoryService categoryService)
     {
