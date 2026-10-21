@@ -2,8 +2,8 @@ namespace RentalSystem.Domain.Enums;
 
 public enum ProductStatus
 {
-    Available = 5,
+    Available = 7,
     Rented = 8,
-    Maintenance = 2,
-    Retired = 0
+    Maintenance = 9,
+    Retired = 10
 }

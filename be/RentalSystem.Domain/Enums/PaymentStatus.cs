@@ -2,8 +2,8 @@ namespace RentalSystem.Domain.Enums;
 
 public enum PaymentStatus
 {
-    Unpaid = 1,
-    Paid = 2,
-    Refunded = 3,
-    PartiallyPaid = 4
+    Unpaid = 10,
+    Paid = 11,
+    Refunded = 12,
+    PartiallyPaid = 13
 }
